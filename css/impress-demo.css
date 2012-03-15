@@ -590,9 +590,9 @@ body     { pointer-events: none; }
     left: -5px;
 }
 .graph {
-    position: relative;
-    top: 10%;
-    left: 14%;
+    position: fixed;
+    top: 32%;
+    left: 36%;
     padding: 30px;
 }
 
@@ -603,7 +603,7 @@ body     { pointer-events: none; }
 #agenda {
     position: relative;
     left: 5%;
-    top: 13%;
+    top: 10%;
 
 }
 #agenda li {
@@ -613,7 +613,8 @@ body     { pointer-events: none; }
 #agenda img {
     position: relative;
     left: 16%;
-    top: 27%;
+    top: 30%;
+    margin-top: 30px;
     padding: 20px;
     background: 
     orangeRed;
@@ -636,4 +637,10 @@ body     { pointer-events: none; }
     position: fixed;
     left: 20%;
     top: 40%;
+}
+
+#wherenow ul {
+    position: fixed;
+    left: 10%;
+    top: 43%;
 }
