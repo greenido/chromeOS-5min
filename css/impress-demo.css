@@ -312,8 +312,18 @@ body     { pointer-events: none; }
     font-size: 150%;
 }
 
+#imagination ul {
+    position: relative;
+    left: 25px;
+}
+
+#imagination li {
+    padding-top: 25px;
+}
+
+
 #imagination .imagination {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #source {
@@ -360,7 +370,7 @@ body     { pointer-events: none; }
 #pillers {
     position: relative;
     left: 25%;
-   
+
 }
 
 
@@ -548,7 +558,7 @@ body     { pointer-events: none; }
 }
 
 #one-more-thing {
-    font-size: 140px;
+    font-size: 90px;
 }
 
 #ido-card {
@@ -608,4 +618,16 @@ body     { pointer-events: none; }
     background: 
     orangeRed;
     border-radius: 18px;
+}
+
+#chrome2 {
+    position: fixed;
+    left: 55%;
+    top: 25%;
+}
+
+#ch-stats {
+    width: 610px;
+    position: relative;
+    top: 50px;
 }
