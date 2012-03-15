@@ -29,7 +29,7 @@
     
     <div class="step slide" data-x="-3000" data-y="-1000">
         <h1>Agenda</h1>
-        <div class="mid_slide">
+        <div id="agenda">
             <ul>
                 <li>Chrome State</li>
                 <li>ChromeOS</li>
@@ -55,17 +55,18 @@
                 greenido.wordpress.com</a>
             </li>
         </ul>
-            
         </div> 
     </div>
 
-
-
     <div class="step slide" data-x="-1000" data-y="-1500">
         <h1>Where are we now?</h1>
-        <q>200M active Chrome users</q>
-        <p>TV, Desktops/laptops, tablets and mobile devices<p>
-        <img src="img/graph-200m.png" alt="chrome got more then 200 million users"/>
+        <div class=mid_slide">
+            <q>200M active Chrome users</q>
+            <p>TV, Desktops/laptops, tablets and mobile devices<p>
+            <span class="graph">
+                <img src="img/graph-200m.png" alt="chrome got more then 200 million users"/>
+            </span>
+        </div>
     </div>
 
     <div class="step slide" data-x="0" data-y="-1500">
@@ -77,19 +78,19 @@
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-        <q>ChromeOS - Three Pillars</q>
-        <ul>
-            <li>Speed</li>
-            <li>Simplicity</li>
-            <li>Security</li>
-        </ul>
-        <img src="img/3-pillers.png" alt="the three pillers chromeOS is built on"/>
+        <h1>ChromeOS - Three Pillars</h1>
+        <div id="pill_list">
+            <ul>
+                <li>Speed</li>
+                <li>Simplicity</li>
+                <li>Security</li>
+            </ul>
+        </div>
+        <div id="pillers">
+            <img src="img/3-pillers.png" alt="the three pillers chromeOS is built on"/>
+        </div>
     </div>
 
-    <!--
-        This is an example of step element being scaled.
-        Again, we use a `data-` attribute, this time it's `data-scale="2"`, so it means that this   element will be 2 times larger than the others.
-    -->
     <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
         <span class="try">then you should try</span>
         <h1>Chromebook<sup>*</sup></h1>
@@ -97,8 +98,8 @@
     </div>
 
     <div id="its" class="step" data-x="850" data-y="2000" data-rotate="90" data-scale="3">
-        <p>It's a <strong>new tool</strong> <br/>
-        Base on all the great things in HTML5</p>
+        <h1>It's a <strong>new tool</strong></h1>
+        <p>Base on all the great APIs in HTML5</p>
         <ul>
           <li>Dev Tools</li>
           <li>GPU</li>
@@ -113,7 +114,7 @@
     </div>
 
     <div id="big" class="step" data-x="3000" data-y="1100" data-rotate="180" data-scale="1">
-        <p>The 'normal' <b>OS</b> <span class="thoughts">Lots of layers</span></p>
+        <p>The 'normal' <b>OS</b> <span class="thoughts">(Lots of layers)</span></p>
         <img src="img/ch-old-os.png" />
     </div>
 

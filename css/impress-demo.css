@@ -346,6 +346,23 @@ body     { pointer-events: none; }
     font-weight: bold;
 }
 
+#pill_list {
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
+#pill_list li {
+    padding-top: 15px;
+}
+
+
+#pillers {
+    position: relative;
+    left: 25%;
+   
+}
+
 
 /* it's in 3D */
 
@@ -537,8 +554,14 @@ body     { pointer-events: none; }
 #ido-card {
     position: fixed;
     right: 50px;
-    top:50px;
-
+    top: 110px;
+    padding-top: 6px;
+    background: 
+    green;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
 }
 
 .mid_slide {
@@ -556,7 +579,33 @@ body     { pointer-events: none; }
     top: 11px;
     left: -5px;
 }
+.graph {
+    position: relative;
+    top: 10%;
+    left: 14%;
+    padding: 30px;
+}
 
 .mid_slide ul {
     list-style: none;
+}
+
+#agenda {
+    position: relative;
+    left: 5%;
+    top: 13%;
+
+}
+#agenda li {
+    padding-top: 15px;
+
+}
+#agenda img {
+    position: relative;
+    left: 16%;
+    top: 27%;
+    padding: 20px;
+    background: 
+    orangeRed;
+    border-radius: 18px;
 }
