@@ -54,7 +54,7 @@ q:before, q:after {
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 200%;
 }
 table {
     border-collapse: collapse;
@@ -308,6 +308,10 @@ body     { pointer-events: none; }
     width: 600px;
 }
 
+#imagination h1{
+    font-size: 150%;
+}
+
 #imagination .imagination {
     font-size: 20px;
 }
@@ -325,6 +329,23 @@ body     { pointer-events: none; }
 #source q {
     font-size: 60px;
 }
+
+#source h1 {
+    font-size: 150%;
+}
+
+#source h3 {
+   font-size: 110%;
+    border-radius: 20px;
+    background-color: 
+    yellow;
+    padding: 15px;
+    width: 355px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
 
 /* it's in 3D */
 
@@ -522,11 +543,20 @@ body     { pointer-events: none; }
 
 .mid_slide {
     position: relative;
-    top:15%;
-    left:10%;
+    top:25%;
+    left:5%;
     font-size:120%;
 }
 
 .mid_slide li {
     padding-top: 20px;
+}
+.mid_slide li img {
+    position: relative;
+    top: 11px;
+    left: -5px;
+}
+
+.mid_slide ul {
+    list-style: none;
 }
