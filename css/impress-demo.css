@@ -55,6 +55,7 @@ q:before, q:after {
 
 h1 {
     font-size: 200%;
+    font-weight: bolder;
 }
 table {
     border-collapse: collapse;
@@ -203,6 +204,7 @@ body     { pointer-events: none; }
     -ms-transform:     translateZ(20px);
     -o-transform:      translateZ(20px);
     transform:         translateZ(20px);
+
 }
 
 #title h1 {
@@ -217,6 +219,10 @@ body     { pointer-events: none; }
 
 #title .footnote {
     font-size: 32px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: rotate-h1 2s infinite alternate ease-in-out;
+    -webkit-transform: perspective(1000px) rotateY(0deg);
+    -webkit-transition: all 2s ease-in-out;
 }
 
 /* big thoughts */
@@ -643,4 +649,36 @@ body     { pointer-events: none; }
     position: fixed;
     left: 10%;
     top: 43%;
+}
+
+/* openning slide */
+/* This is the animation code. */
+@-webkit-keyframes movechrome {
+    0%   { opacity: 0.0; }
+    25%  { opacity: 0.25; }
+    50%  { opacity: 0.5; }
+    75%  { opacity: 0.75; }
+    100% { opacity: 1.0; }
+}
+
+#openning {
+position: relative;
+top: 20%;
+left: 6%;
+font-size: 200%;
+line-height: 100px;
+font-weight: bold;
+
+}
+#chlogo {
+    position: fixed;
+    top: 35%;
+    left: 38%;
+    
+-webkit-animation-name: movechrome;
+   -webkit-animation-duration: 6s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
 }
