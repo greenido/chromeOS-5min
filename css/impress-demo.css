@@ -662,23 +662,16 @@ body     { pointer-events: none; }
 }
 
 #openning {
-position: relative;
-top: 20%;
-left: 6%;
-font-size: 200%;
-line-height: 100px;
-font-weight: bold;
+    position: relative;
+    top: 20%;
+    left: 6%;
+    font-size: 200%;
+    line-height: 100px;
+    font-weight: bold;
 
 }
 #chlogo {
     position: fixed;
     top: 35%;
     left: 38%;
-    
--webkit-animation-name: movechrome;
-   -webkit-animation-duration: 6s;
-   -webkit-animation-timing-function: ease; /* ease is the default */
-   -webkit-animation-delay: 1s;             /* 0 is the default */
-   -webkit-animation-iteration-count: 2;    /* 1 is the default */
-   -webkit-animation-direction: alternate;  /* normal is the default */
 }
